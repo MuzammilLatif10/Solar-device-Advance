@@ -42,4 +42,22 @@ Connectivity	     Wi-Fi / Bluetooth
 Firmware	         ESP32            
 Project type	     DIY / Open Source         
 
+Project function    
+The controller integrates power monitoring, Solar charge regulation, automatic transfer switching (between grid, battery, and solar). It monitors PV voltage, battery voltage,  Output/load current, and grid status; then makes intelligent switching.
+
+<img width="1004" height="747" alt="image" src="https://github.com/user-attachments/assets/51fdfb3b-a4a5-411b-8e9d-3abb3be39c90" />
+
+ # User Interface
+The Device provides a menu-based interface for system monitoring and configuration.
+
+<img width="759" height="536" alt="image" src="https://github.com/user-attachments/assets/b73aef94-2dbc-4d85-bdc5-7f43401628cd" />
+
+1.	Working mode: Running on Grid or Battery   
+2.	Solar Status  
+3.	Load Status  
+4.	Grid Status  
+5.	Battery Status  
+6.	Settings  
+
+
 
