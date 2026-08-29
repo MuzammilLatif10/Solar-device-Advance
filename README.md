@@ -68,9 +68,9 @@ The ESP32 handles:
 •	System-state monitoring  
 •	Relay control  
 •	Display control  
-•	Keypad input 
-•	Settings  
-•	Fault handling 
+•	Keypad input   
+•	Settings   
+•	Fault handling   
 •	Operating logic  
 •	Communication functions  
 The ESP32 also provides Wi-Fi and Bluetooth/BLE hardware for possible future expansion and remote monitoring functions.  
