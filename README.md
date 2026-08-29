@@ -8,11 +8,11 @@ An ESP32-based DIY solar/UPS controller designed to add solar management, power 
 ⚠️ Safety Warning: This project can involve battery currents, inverter output, and potentially lethal AC mains voltage. Do not work on energized circuits. Use appropriate fuses, isolation, protection, wiring, relay ratings, and enclosure clearances.
 
  
-#Video link：
+# Video link：
 
 Will be uploaded soon.
 
-#Project Support & Sponsors
+# Project Support & Sponsors
 
 The development of Solar Device Advance was made possible with support from OSHWLab, EasyEDA, and JLCPCB.
 We sincerely thank these organizations for providing complimentary PCBs and electronic components used during the development and testing of this project.
@@ -22,7 +22,7 @@ JLCPCB
 Thank you to OSHWLab, EasyEDA, and JLCPCB for supporting DIY and open-source hardware development.
 
 
-#Introduction
+# Introduction
 
 This Solar Device enables the user to built your own Solar System using a car inverter & charge controller OR to convert conventional UPS into Solar inverter.
 Existing small/household UPS units provide battery-backed AC output but typically do not accept solar input or intelligently prioritise solar energy. Retrofitting these UPS units with a dedicated controller converts them to hybrid solar inverters at a fraction of the cost of buying a commercial solar inverter.
