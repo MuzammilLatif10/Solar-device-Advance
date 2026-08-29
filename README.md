@@ -77,7 +77,7 @@ The ESP32 handles:
 •	Operating logic  
 •	Communication functions  
 The ESP32 also provides Wi-Fi and Bluetooth/BLE hardware for possible future expansion and remote monitoring functions.  
-
+________________________________________
 ### Power Monitoring  
 The controller monitors the electrical parameters.  
 These include the system's relevant:  
@@ -102,4 +102,20 @@ ________________________________________
 ### Grid Detection	  
 The controller monitors the grid/AC input through the dedicated detection circuit.  
 The controller uses the grid status as one of the inputs for automatic operating-state decisions.  
+________________________________________
+### Solar Monitoring  
+Solar/PV conditions are monitored by the controller through the implemented voltage sensing circuits.  
+The controller uses these measurements to determine the available solar condition and display the relevant information to the user.  
+The controller can work with an external solar charge controller as part of the overall system.  
+________________________________________
+
+### Relay Control	  
+Relay outputs are controlled by the ESP32 through the relay-driver circuitry implemented on the PCB.  
+Relay 1 for AC charging  
+Relay 2 for Inverter control  
+Relay 3 for Load Shifting  
+The relay contacts must be rated appropriately for the connected voltage, current, load type, and inrush current.  
+________________________________________
+Refer to the schematic for the exact circuit implementation.  
+
 
