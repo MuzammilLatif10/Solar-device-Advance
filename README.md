@@ -78,4 +78,28 @@ The ESP32 handles:
 •	Communication functions  
 The ESP32 also provides Wi-Fi and Bluetooth/BLE hardware for possible future expansion and remote monitoring functions.  
 
+### Power Monitoring  
+The controller monitors the electrical parameters.  
+These include the system's relevant:  
+•	Solar/PV voltage  
+•	Battery voltage  
+•	AC/grid status  
+•	UPS output/load condition  
+•	Output Current measurements  
+The actual measurement circuits, scaling networks, sensor connections, and protection components are shown in the project schematic.  
+________________________________________
+### Current Measurement  
+Current measurement is performed using ACS712 current sensors.  
+The measured current is read by the ESP32 ADC and processed by the firmware.  
+Current measurements are used for system monitoring and control functions implemented in the System.  
+Sensor calibration is required to obtain accurate measurements.  
+________________________________________
+### Battery Monitoring	  
+The controller monitors battery voltage.  
+Battery measurements can be used by the device to determine battery operating conditions and activate the configured battery protection behavior.  
+The actual battery limits and settings should be configured according to the battery type and the connected UPS/inverter system.  
+________________________________________
+### Grid Detection	  
+The controller monitors the grid/AC input through the dedicated detection circuit.  
+The controller uses the grid status as one of the inputs for automatic operating-state decisions.  
 
