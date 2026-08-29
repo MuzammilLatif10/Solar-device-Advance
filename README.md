@@ -18,7 +18,8 @@ The development of Solar Device Advance was made possible with support from OSHW
 We sincerely thank these organizations for providing complimentary PCBs and electronic components used during the development and testing of this project.
 
 OSHWLab
-EasyEDA
+
+EasyEDA     
 JLCPCB
 
 Thank you to OSHWLab, EasyEDA, and JLCPCB for supporting DIY and open-source hardware development.
