@@ -62,8 +62,7 @@ The Device provides a menu-based interface for system monitoring and configurati
 # Hardware description
 ## 1.	Main Board
 <img width="465" height="571" alt="image" src="https://github.com/user-attachments/assets/ece9ef79-3af2-4063-88e8-50e893d65542" />
-
-    <img width="455" height="552" alt="image" src="https://github.com/user-attachments/assets/eff732cf-c847-46b2-8864-910d977a6de4" />
+<img width="455" height="552" alt="image" src="https://github.com/user-attachments/assets/eff732cf-c847-46b2-8864-910d977a6de4" />
     
 
 ###  MicroController
